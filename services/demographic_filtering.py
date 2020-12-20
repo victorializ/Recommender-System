@@ -3,7 +3,7 @@
 import pandas
 import numpy
 
-from keys import Keys
+from data.keys import Keys
 
 def general_rate(data, avarage_key=Keys.avarage, count_key=Keys.count, q=0.9):
     #data - pandas DataFrame
