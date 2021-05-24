@@ -1,0 +1,18 @@
+GET http://localhost:5000/recommendations?id=3
+
+###
+GET http://localhost:5000/recommendations/report?id=3
+
+###
+
+GET http://localhost:5000/movies?id=111
+###
+
+POST http://localhost:5000/rate
+content-type: application/json
+
+{
+    "userId": 1,
+    "movieId": 111,
+    "rating": 5
+}
